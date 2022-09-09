@@ -2,7 +2,7 @@
 using namespace std;
 
 void swap(void* &first_ptr, void* &second_ptr) {
-	// Просто меняется значения самих ptr
+	// Просто меняются значения самих ptr
 	void* inter = first_ptr;
 	first_ptr = second_ptr;
 	second_ptr = inter;
